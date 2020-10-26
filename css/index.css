@@ -2,3 +2,173 @@
 /* *** Estilos SOLO para index.html *** */
 /* *********************************** */
 
+#container{
+    display: grid;
+    grid-template-columns: 10% 1fr 10%;
+}
+.header{
+    grid-column: 2/3;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 946px;
+}
+.header__nav{
+    grid-column: 1/2;
+    display: flex;
+    justify-content: center;
+}
+
+.nav__banner{
+    background-image: url(../img/svg/bannerPrincipal.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color:#DB7F1F ;
+    height: 946px;
+    width: 1020px;
+    
+}
+
+.main{
+    grid-column: 2/3;
+    display: grid;
+    background-color: #DB7F1F;
+    color: #fff ;
+   
+    
+}
+.main_h5{
+    padding: 20px;
+}
+
+/* empezamos zona main calabazas */
+
+
+.section_navegador{
+    grid-column: 1/2;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 500px;
+}
+.calabazaGrande{
+    grid-column: 1/2;
+    background-image: url(../img/svg/calabazaGrande.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color:#DB7F1F ;
+}
+
+.proyectos_h4{
+    grid-column: 2/3;
+    grid-row: 1/2;
+    text-align: center;
+    background-color:#FEC35E ;
+    align-self: center;
+    height: 50px;
+    width: 500px;
+    border-radius: 10px 0px 10px 0px;
+
+}
+.calabazas01{
+    grid-column: ;
+   
+    background-image: url(../img/svg/calabaza01.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color:#DB7F1F ;
+    width: 200px;
+    height: 200px;
+}
+.calabazas02{
+    grid-column: ;
+  
+    background-image: url(../img/svg/calabaza01.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color:#DB7F1F ;
+    width: 200px;
+    height: 200px;
+}
+.section_navegador02{
+    grid-column: 1/2;
+    display: flex;
+    justify-content: flex-end;
+}
+.calabazas01, .calabazas02{
+    grid-column: 2/3;
+}
+/* comenzamos la zona de las fotos y descripciones */
+
+.figures{
+    grid-column: 1/2;
+    display: grid;
+    grid-template-columns:  1fr 1fr;
+    grid-template-rows: 450px 450px 450px;
+
+}
+
+.figur01{
+    grid-column: 1/2;
+    width: 300px;
+    height: 300px;
+    background-color: #fff;
+    background-position: center;
+}
+
+.figure01__p{
+    grid-column: 2/3;
+    padding: 30px;
+
+}
+.figure02__p{
+    grid-column: 1/2;
+    padding: 30px;
+}
+.figur02{
+    grid-column: 2/3;
+    width: 300px;
+    height: 300px;
+    background-color: #fff;
+    background-position: center;
+}
+.figur03{
+    grid-column: 1/2;
+    width: 300px;
+    height: 300px;
+    background-color: #fff;
+    background-position: center;
+}
+
+.figure03__p{
+    grid-column: 2/3;
+    padding: 30px;
+}
+
+.footer{
+    grid-column: 2/3;
+    display: grid;
+    grid-template-columns: 10% 1fr 1fr;
+    grid-template-rows: 300px 500px;
+    background-color: #DB7F1F;
+}
+
+.form{
+    grid-column: 2/3;
+    padding: 20px;
+    margin: 10px 20px 10px 20px;
+    background-color: #DB7F1F;
+}
+
+.enviar{
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    background-color: #DB7F1F;
+    border: 10px solid black;
+}
+.figure__footer{
+    grid-column: 1/4;
+    background-image: url(../img/svg/footer.svg);
+    background-position: center;
+    background-size: 900px;
+    background-repeat: no-repeat;
+}
